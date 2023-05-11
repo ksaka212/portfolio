@@ -1,0 +1,125 @@
+@charset "UTF-8";
+
+/*=====  ヘッダー、フッター、メインコンテント =====*/
+header, footer, div.container-base {
+	padding			:	16px;
+}
+/*=====  ヘッダー、タイトル右padding =====*/
+header h1.site-title {
+	padding-right	: 	8px;
+}
+/*=====  ヘッダー、横分割 =====*/
+header div.container h1.site-title, 
+header div.container div.site-sub-title {
+	display			: 	inline-block;
+	vertical-align	: 	middle;
+}
+/*=====  フッター、リスト =====*/
+footer div.container div.row div.left-content ul {
+	list-style		: 	none;
+}
+/*=====  メイン画面 =====*/
+div.container-base {
+	margin			: 	50px auto;
+	border-radius	:	10px;
+	width			: 	900px;
+}
+/*=====  メイン画面、履歴と電卓 =====*/
+div.container-base main div.dentaku-base div.row {
+	height: 400px;
+}
+/*=====  メイン画面、履歴と電卓 =====*/
+div.container-base main div.dentaku-base div.row div.history-content {
+	width: 60%;
+	margin-right: 3%;
+}
+div.container-base main div.dentaku-base div.row div.dentaku-content {
+	width: 35%;
+}
+/*=====  メイン画面、履歴と電卓 =====*/
+div.container-base main div.dentaku-base div.row div.history-content,
+div.container-base main div.dentaku-base div.row div.dentaku-content {
+	display			: 	inline-block;
+	vertical-align: top;
+	height: 100%;
+}
+/*=====  メイン画面、履歴メニュー =====*/
+div.container-base main div.dentaku-base div.row div.history-content div.history-menu{
+	margin-bottom	:	 2%;
+}
+/*=====  メイン画面、履歴削除 =====*/
+div.container-base main div.dentaku-base div.row div.history-content div.history-menu button#history-menu-clear{
+	background-color: white;
+	border-radius	: 	5px;
+	padding	: 4px;
+	border	: 1px solid ;
+	border					: solid 1px #888;
+	vertical-align: middle;
+}
+/*=====  メイン画面、履歴 =====*/
+div.container-base main div.dentaku-base div.row div.history-content div.history{
+	overflow		: 	scroll;
+	height			: 	90%;
+}
+/*=====  メイン画面、説明 =====*/
+div.container-base main div.site-descr {
+	padding-top		: 	10px;
+}
+/*=====  メイン画面、電卓 =====*/
+div.container-base main div.dentaku-base div.row div.dentaku-content div.dentaku table {
+	width: 100%;
+	height: 400px;
+}
+/*=====  メイン画面、電卓、ボタン =====*/
+div.container-base main div.dentaku-base div.row div.dentaku-content div.dentaku table tbody tr td {
+	width: 20%;
+}
+/*=====  メイン画面、電卓、ボタン =====*/
+div.container-base main div.dentaku-base div.row div.dentaku-content div.dentaku table tbody tr td button {
+	width: 100%;
+	height: 100%;
+	border-radius: 10px;
+}
+/*=====  メイン画面、電卓、ボタンカーソル =====*/
+div.container-base main div.dentaku-base div.row div.dentaku-content div.dentaku table tbody tr td button {
+	width: 100%;
+	height: 100%;
+	border-radius: 10px;
+}
+/*=====  メイン画面、電卓、ボタン、文字サイズ =====*/
+div.container-base main div.dentaku-base div.row div.dentaku-content div.dentaku table tbody tr td,
+div.container-base main div.dentaku-base div.row div.dentaku-content div.dentaku table tbody tr td button {
+	font-size			: 30px;
+}
+/*=====  電卓ディスプレイ =====*/
+div.container-base main div.dentaku-base div.row div.dentaku-content div.dentaku table tbody tr td.display {
+	border-radius		: 10px;
+    padding				: 0px 12px;
+}
+/*=====  履歴、1行 =====*/
+div.container-base main div.dentaku-base div.row div.history-content div.history p {
+	margin: 10px;
+}
+/*=====  履歴、1行 =====*/
+div.container-base main div.dentaku-base div.row div.history-content div.history p button#formula, 
+div.container-base main div.dentaku-base div.row div.history-content div.history p button#answer {
+	border: solid 1px #ddd;
+	padding: 2px 4px;
+	margin: 2px;
+	border-radius	: 	8px;
+	font-size: 20px;
+	vertical-align: middle;
+	background-color: white;
+}
+/*=====  履歴、×ボタン =====*/
+div.container-base main div.dentaku-base div.row div.history-content div.history p button#del_btn {
+	margin-left: 10px;
+	height: 25px;
+	width: 25px	;
+	font-size: 20px;
+	vertical-align: middle;
+	background-color: white;
+    color: #f08080;
+    border: solid 1px #f08080;
+    border-radius	: 	8px;
+}

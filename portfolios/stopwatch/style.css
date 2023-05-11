@@ -1,0 +1,69 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(31, 74, 169);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+header h1 {
+    font-size: 3.5rem;
+    text-align: center;
+    color: rgb(235, 232, 232);
+    padding: 2rem;
+}
+
+main {
+    background-color: rgb(235, 232, 232);
+    margin: 0 auto;
+    width: 600px;
+    border-radius: 1rem;
+    padding: 2.5rem;
+    margin-top: 1.5rem;
+}
+
+main #time {
+    color: rgb(31, 74, 169);
+    font-size: 4rem;
+    text-align: center;
+    box-shadow: 1px 1px 20px rgba(31, 74, 169, 0.5);
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 1rem;
+
+}
+
+main .buttons {
+    margin-top: 2rem;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+main .buttons button {
+    color: rgb(31, 74, 169);
+    border: 2px solid rgb(31, 74, 169);
+    background-color: rgb(237, 231, 231);
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+main .buttons button:hover {
+    background-color: rgb(196, 220, 238);
+}
+
+main .buttons button:active {
+    background-color: rgb(167, 210, 239);
+}
+
+main .buttons button:disabled {
+    background-color: gray;
+    cursor: auto;
+}

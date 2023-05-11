@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<link rel="shortcut icon" href="../img/calculator_16.png">
+	<link rel="stylesheet" href="../css/base.css">
+	<link rel="stylesheet" href="../css/main.css">
+	<link rel="stylesheet" href="../css/color1.css">
+	<script src="../js/history.js"></script>
+	<script src="../js/calcbutton.js"></script>
+	<script src="../js/main.js"></script>
+	<title>WEB電卓</title>
+</head>
+
+<body>
+	<!-- ヘッダー -->
+	<header>
+		<div class="container">
+			<h1 class="site-title">
+				<a href="./calculator.html">WEB電卓</a>
+			</h1>
+			<div class="site-sub-title">
+				<p>計算式/履歴が見えるメモリー電卓アプリ</p>
+			</div>
+		</div>
+	</header>
+
+	<!-- メイン -->
+	<div class="container-base">
+		<main>
+			<div class="dentaku-base">
+				<div class="row">
+					<div class="history-content">
+						<div class="history-menu">
+							<button id="history-menu-clear">
+								削除
+							</button>
+						</div>
+						<div class="history" id="history">
+						</div>
+					</div>
+					<div class="dentaku-content">
+						<div class="dentaku">
+							<table>
+								<tbody>
+									<tr>
+										<td colspan="4" id="display" class="display">0</td>
+									</tr>
+									<tr>
+										<td>
+											<button class="btn btn-ope">AC</button>
+										</td>
+										<td>
+											<button class="btn btn-ope">±</button>
+										</td>
+										<td>
+											<button class="btn btn-ope">%</button>
+										</td>
+										<td>
+											<button class="btn btn-ope">÷</button>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<button class="btn btn-num">7</button>
+										</td>
+										<td>
+											<button class="btn btn-num">8</button>
+										</td>
+										<td>
+											<button class="btn btn-num">9</button>
+										</td>
+										<td>
+											<button class="btn btn-ope">×</button>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<button class="btn btn-num">4</button>
+										</td>
+										<td>
+											<button class="btn btn-num">5</button>
+										</td>
+										<td>
+											<button class="btn btn-num">6</button>
+										</td>
+										<td>
+											<button class="btn btn-ope">－</button>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<button class="btn btn-num">1</button>
+										</td>
+										<td>
+											<button class="btn btn-num">2</button>
+										</td>
+										<td>
+											<button class="btn btn-num">3</button>
+										</td>
+										<td>
+											<button class="btn btn-ope">＋</button>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<button class="btn btn-num">0</button>
+										</td>
+										<td>
+											<button class="btn btn-ope">.</button>
+										</td>
+										<td>
+											<button class="btn btn-ope">C</button>
+										</td>
+										<td>
+											<button class="btn btn-ope-eq">=</button>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+	</div>
+
+	<!-- フッター -->
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="left-content">
+					<h1 class="site-title">
+						<a href="./calculator.html">WEB電卓</a>
+					</h1>
+				</div>
+				<div class="right-content"></div>
+			</div>
+		</div>
+	</footer>
+</body>
+
+</html>

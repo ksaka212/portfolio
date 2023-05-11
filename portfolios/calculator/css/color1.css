@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+/*=====  ヘッダー、フッター、背景色 =====*/
+header, footer {
+	background-color		: 	#333;
+}
+/*=====  ヘッダーフッター、文字色 =====*/
+header div.container h1.site-title a, 
+header div.container div.site-sub-title p,
+header div.container div.site-sub-title p a,
+footer div.container div.row div.left-content h1.site-title a,
+footer div.container div.row div.left-content p.site-url a,
+footer div.container div.row div.left-content ul li a,
+footer div.container div.copyright {
+	color					: 	#fff;
+}
+/*=====  ヘッダー、フッター、a =====*/
+header div.container h1.site-title a,
+header div.container div.site-sub-title p a,
+footer div.container div.row div.left-content h1.site-title a,
+footer div.container div.row div.left-content p.site-url a,
+footer div.container div.row div.left-content ul li a {
+	text-decoration			:		 none;
+} 
+/*=====  フッター、サイトURL透過 =====*/
+footer div.container div.row div.left-content p.site-url a {
+	opacity					: 		0.6;
+}
+/*=====  フッター、ul 位置 =====*/
+footer div.container div.row div.left-content ul {
+	padding-top				: 		50px;
+}
+/*=====  フッター、コピーライト、中央揃え =====*/
+footer div.copyright {
+	text-align				: 		center;	
+}
+footer div.container div.row div.left-content ul li a::before{
+	content					: 		">";
+	padding-right			: 		5px;
+}
+/*=====  メイン画面 =====*/
+div.container-base {
+	background-color		:	 #eee;
+}
+/*=====  履歴画面 =====*/
+div.container-base main div.dentaku-base div.row div.history-content div.history{
+	background-color		: 	white;
+}
+/*=====  電卓ディスプレイ =====*/
+div.container-base main div.dentaku-base div.row div.dentaku-content div.dentaku table tbody tr td.display {
+    text-align				: right;
+    background-color		: #888;
+    border					: solid 1px #888;
+	color					: white;
+}
+/*=====  電卓オペレーションボタン =====*/
+div.container-base main div.dentaku-base div.row div.dentaku-content div.dentaku table tbody tr td button.btn-ope {
+	background-color		: 	#fe9a2e;
+	border					: 		solid 1px #fe9a2e;
+	color					: white;
+}
+/*=====  電卓＝ボタン =====*/
+div.container-base main div.dentaku-base div.row div.dentaku-content div.dentaku table tbody tr td button.btn-ope-eq {
+    background-color		: #ff4400;
+    border					: solid 1px #ee3300;
+	color					: white;
+}
+/*=====  電卓数字ボタン =====*/
+div.container-base main div.dentaku-base div.row div.dentaku-content div.dentaku table tbody tr td button.btn-num {
+    background-color		: 	#dcdcdc;
+    border					:	 solid 1px #cbcbcb;
+}
+
+
+
